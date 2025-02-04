@@ -1,0 +1,48 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #faf8ef;
+    color: #776e65;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #e84d5b;
+  }
+  
+  .text{
+    text-align: center;
+    font-size: 40px;
+  }
+  .buttonContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttonContainer button{
+    margin: 30px;
+    border: 1px grey solid;
+    padding: 8px;
+    background-color: palevioletred;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+  }
+.buttonContainer button:hover{
+  background-color: darkgoldenrod;
+}
